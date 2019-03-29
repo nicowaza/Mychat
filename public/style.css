@@ -1,0 +1,98 @@
+html{
+  height: 100%;
+}
+
+body{
+  font-family: 'Nunito';
+  height:100%;
+}
+
+h2{
+  font-size: 18px;
+  padding: 10px 20px;
+  color: #575ed8;
+}
+
+#my-chat{
+  width: 33vw;
+  max-width: 600px;
+  border: 1px solid rgb(29, 3, 3);
+  box-shadow: 8px 3px 5px rgba(0,0,0,0.05);
+  margin: 50px auto;
+}
+#chat-window{
+  height: 400px;
+  overflow: auto;
+  background: #f9f9f9;
+}
+
+#output{
+  padding: 14px 14px;
+  /* margin: 15px 20px; */
+  border-bottom: 1px solid #e9e9e9;
+  color: rgb(19, 16, 16);
+  border-radius: 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+#feedback p{
+  color: #aaa;
+  padding: 14px 12px;
+  margin: 0 20px;
+}
+
+#output strong{
+  color: #575ed8;
+}
+
+label{
+  box-sizing: border-box;
+  display: block;
+  padding: 10px 20px;
+}
+
+input{
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background: #eee;
+  border: 0;
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  font-family: Nunito;
+  font-size: 16px;
+}
+
+button{
+  background: #575ed8;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  padding: 12px 0;
+  width: 100%;
+  border-radius: 0 0 2px 2px;
+}
+
+#user{
+  padding-left: 12px;
+}
+/* .message {
+    display: flex;
+  justify-content: flex-start
+} */
+
+.text {
+
+}
+.blue {
+  background-color: blue;
+  text-align: left;
+
+}
+
+.grey {
+  background-color: lightgrey;
+  text-align: right;
+}
